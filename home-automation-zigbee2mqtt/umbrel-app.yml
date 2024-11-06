@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: zigbee2mqtt
+category: home-automation
+name: Zigbee2MQTT
+version: "1.0"
+tagline: Bridge between Zigbee devices and MQTT broker
+description: >-
+  Zigbee2MQTT allows you to control Zigbee devices through MQTT. It integrates seamlessly with home automation systems, enabling you to manage your smart devices efficiently.
+
+releaseNotes: >-
+  Initial release of Zigbee2MQTT with core functionalities.
+
+developer: Your Name or Organization
+website: https://www.zigbee2mqtt.io/
+dependencies:
+  - mqtt-broker  # Assuming you packaged MQTT Broker as a separate Umbrel app
+repo: https://github.com/<YOUR-GITHUB-USERNAME>/zigbee2mqtt
+support: https://github.com/<YOUR-GITHUB-USERNAME>/zigbee2mqtt/discussions
+port: 8080
+gallery:
+  - 1.png
+  - 2.png
+  - 3.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel-apps/pull/<PR_NUMBER>
