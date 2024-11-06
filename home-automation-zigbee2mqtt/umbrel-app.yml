@@ -18,9 +18,9 @@ repo: https://github.com/<YOUR-GITHUB-USERNAME>/zigbee2mqtt
 support: https://github.com/<YOUR-GITHUB-USERNAME>/zigbee2mqtt/discussions
 port: 8080
 gallery:
-  - 1.png
-  - 2.png
-  - 3.png
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
 path: ""
 defaultUsername: ""
 defaultPassword: ""

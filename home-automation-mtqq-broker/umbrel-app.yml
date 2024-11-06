@@ -18,9 +18,9 @@ support: https://github.com/<YOUR-GITHUB-USERNAME>/mqtt-broker/discussions
 port: 1883
 icon: https://svgur.com/i/mvA.svg
 gallery:
-  - 1.png
-  - 2.png
-  - 3.png
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
