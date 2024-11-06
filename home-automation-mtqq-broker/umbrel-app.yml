@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: mqtt-broker
-category: utilities
+category: home-automation
 name: MQTT Broker
 version: "2.0"
 tagline: Lightweight MQTT Broker for IoT Devices
