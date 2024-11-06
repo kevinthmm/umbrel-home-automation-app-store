@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: mqtt-broker
+category: utilities
+name: MQTT Broker
+version: "2.0"
+tagline: Lightweight MQTT Broker for IoT Devices
+description: >-
+  Eclipse Mosquitto is a lightweight and open-source MQTT broker that is perfect for IoT and home automation applications. It supports MQTT protocol versions 3.1 and 3.1.1.
+
+releaseNotes: >-
+  Initial release of MQTT Broker with basic functionalities.
+
+developer: Your Name or Organization
+website: https://mosquitto.org/
+dependencies: []
+repo: https://github.com/<YOUR-GITHUB-USERNAME>/mqtt-broker
+support: https://github.com/<YOUR-GITHUB-USERNAME>/mqtt-broker/discussions
+port: 1883
+icon: https://svgur.com/i/mvA.svg
+gallery:
+  - 1.png
+  - 2.png
+  - 3.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel-apps/pull/<PR_NUMBER>
