@@ -16,6 +16,6 @@ services:
     ports:
       - '8080:8080'
     environment:
-      - TZ=Europe/Berlin
+      - TZ=Asia/Singapore
     devices:
       - /dev/ttyUSB0:/dev/ttyUSB0
