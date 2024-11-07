@@ -13,16 +13,16 @@ description: >-
 
 developer: Your Name or Organization
 website: https://mosquitto.org/
-#repo: https://github.com/<YOUR-GITHUB-USERNAME>/mqtt-broker
-#support: https://github.com/<YOUR-GITHUB-USERNAME>/mqtt-broker/discussions
+repo: https://github.com/eclipse-mosquitto/mosquitto
+support: https://github.com/eclipse-mosquitto/mosquitto/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
   Initial release of MQTT Broker with basic functionalities.
-#dependencies: []
+dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-submitter: Umbrel
+submitter: Kevin Thom
