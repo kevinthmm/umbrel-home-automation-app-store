@@ -11,10 +11,10 @@ services:
     image: eclipse-mosquitto:2.0
     restart: unless-stopped
     volumes:
-      - './mosquitto-data:/mosquitto'
-    ports:
-      - '1883:1883'
-      - '9001:9001'
+      - ${APP_DATA_DIR}/data/mosquitto-data:/mosquitto
+#    ports:
+#      - '1883:1883'
+#      - '9001:9001'
     command: 'mosquitto -c /mosquitto-no-auth.conf'
     environment:
       - TZ=Asia/Singapore
