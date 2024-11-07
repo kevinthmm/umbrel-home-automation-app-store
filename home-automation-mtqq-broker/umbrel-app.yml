@@ -2,7 +2,7 @@ manifestVersion: 1
 id: home-automation-mqtt-broker
 name: MQTT Broker
 tagline: Lightweight MQTT Broker for IoT Devices
-icon: https://repository-images.githubusercontent.com/53614190/b11dd480-90b3-11eb-903d-8c48f62e3172
+icon: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/mosquitto-200px.png?itok=Q6cwbfdO
 category: home-automation
 version: "2.0"
 port: 1883
@@ -11,7 +11,7 @@ description: >-
 
   You can also add newlines!
 
-developer: Your Name or Organization
+developer: Eclipse Foundation
 website: https://mosquitto.org/
 repo: https://github.com/eclipse-mosquitto/mosquitto
 support: https://github.com/eclipse-mosquitto/mosquitto/issues
