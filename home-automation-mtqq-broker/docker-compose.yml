@@ -1,20 +1,12 @@
 version: '3.8'
 
 services:
-  app_proxy:
-    environment:
-      # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: mqtt-broker_web_1
-      APP_PORT: 1883
-
-  web:
+  mqtt:
     image: eclipse-mosquitto:2.0
     restart: unless-stopped
     volumes:
       - ${APP_DATA_DIR}/data/mosquitto-data:/mosquitto
-#    ports:
-#      - '1883:1883'
-#      - '9001:9001'
+    ports:
+      - '1883:1883'
+      - '9001:9001'
     command: 'mosquitto -c /mosquitto-no-auth.conf'
-    environment:
-      - TZ=Asia/Singapore
