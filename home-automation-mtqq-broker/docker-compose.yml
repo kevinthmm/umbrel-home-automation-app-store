@@ -8,7 +8,8 @@ services:
       APP_PORT: 3000
 
   server:
-    image: eclipse-mosquitto:2.0@sha256:090d745b6435d10a31acb82eee999ec36a2d7f416cc4f578c0a298c42af2ea14
+    image: getumbrel/community-app-store-hello-world:latest
+#    image: eclipse-mosquitto:2.0@sha256:090d745b6435d10a31acb82eee999ec36a2d7f416cc4f578c0a298c42af2ea14
     restart: on-failure
 #    volumes:
 #      - ${APP_DATA_DIR}/data/mosquitto-data:/mosquitto
