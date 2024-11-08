@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: zigbee2mqtt
-category: home-automation
 name: Zigbee2MQTT
+category: home-automation
 version: "1.0"
 tagline: Bridge between Zigbee devices and MQTT broker
 description: >-
