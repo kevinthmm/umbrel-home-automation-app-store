@@ -5,13 +5,13 @@ services:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: mqtt-broker_server_1
-      APP_PORT: 3000
+      APP_PORT: 1883
 
   server:
     image: eclipse-mosquitto:2.0@sha256:090d745b6435d10a31acb82eee999ec36a2d7f416cc4f578c0a298c42af2ea14
     restart: on-failure
     volumes:
       - ${APP_DATA_DIR}/data/mosquitto-data:/mosquitto
-    command: mosquitto -c /mosquitto-no-auth.conf
+#    command: mosquitto -c /mosquitto-no-auth.conf
 
 
