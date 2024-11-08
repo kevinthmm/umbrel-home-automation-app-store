@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: zigbee2mqtt
+id: home-automation-zigbee2mqtt
 name: Zigbee2MQTT
 tagline: Bridge between Zigbee devices and MQTT broker
 icon: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/mosquitto-200px.png?itok=Q6cwbfdO
@@ -17,7 +17,6 @@ gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
   Initial release of Zigbee2MQTT with core functionalities.
-
 dependencies: []  # Assuming you packaged MQTT Broker as a separate Umbrel app
 path: ""
 defaultUsername: ""
