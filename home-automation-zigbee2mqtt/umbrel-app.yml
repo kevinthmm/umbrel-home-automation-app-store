@@ -2,7 +2,7 @@ manifestVersion: 1
 id: home-automation-zigbee2mqtt
 name: Zigbee2MQTT
 tagline: Bridge between Zigbee devices and MQTT broker
-icon: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/mosquitto-200px.png?itok=Q6cwbfdO
+icon: https://www.zigbee2mqtt.io/logo.png
 category: home-automation
 version: "1.0"
 port: 8080
