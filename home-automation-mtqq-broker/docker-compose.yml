@@ -18,5 +18,3 @@ services:
     command: 'mosquitto -c /mosquitto-no-auth.conf'
     environment:
       - TZ=Asia/Singapore
-    init: true
-    user: "1000:1000"

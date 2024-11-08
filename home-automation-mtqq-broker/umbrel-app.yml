@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: home-automation-mqtt-broker
-name: MQTT Broker
+name: Mqtt Broker
 tagline: Lightweight MQTT Broker for IoT Devices
 icon: https://projects.eclipse.org/sites/default/files/styles/project_logo/public/mosquitto-200px.png?itok=Q6cwbfdO
 category: home-automation
