@@ -8,6 +8,8 @@ version: "1.0"
 port: 8080
 description: >-
   Zigbee2MQTT allows you to control Zigbee devices through MQTT. It integrates seamlessly with home automation systems, enabling you to manage your smart devices efficiently.
+  
+  ! PLEASE ENSURE YOU HAVE A COMPATIBLE ZIGBEE USB DONGLE CONNECTED TO dev/ttyUSB0 BEFORE INSTALLING THIS APP !
 
 developer: Koen Kanters
 website: https://github.com/Koenkk
