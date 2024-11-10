@@ -6,13 +6,10 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data/:/app/data
       - '/run/udev:/run/udev:ro'
-      - ${APP_DATA_DIR}/data/configuration.yaml.template:/app/configuration.yaml.template
     network_mode: host
     ports:
       - "8080:8080"
     environment:
       - TZ=Asia/Singapore
-      - MQTT_SERVER=mqtt://mqtt-broker:1883
-    entrypoint: /bin/sh -c "envsubst < /app/configuration.yaml.template > /app/data/configuration.yaml && exec docker-entrypoint.sh"
     devices:
       - /dev/ttyUSB0:/dev/ttyACM0
