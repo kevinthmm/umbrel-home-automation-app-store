@@ -2,13 +2,17 @@ version: '3.8'
 services:
   zigbee2mqtt:
     restart: unless-stopped
-    image: koenkk/zigbee2mqtt
+    image: koenkk/zigbee2mqtt@sha256:8643f5d454fb2209a1ce765cb0726b57b92e38ac293af95f068760473af4cf5d
     volumes:
       - ${APP_DATA_DIR}/data/:/app/data
       - '/run/udev:/run/udev:ro'
+      - ${APP_DATA_DIR}/data/configuration.yaml.template:/app/configuration.yaml.template
+    network_mode: host
     ports:
       - "8080:8080"
     environment:
       - TZ=Asia/Singapore
+      - MQTT_SERVER=mqtt://mqtt-broker:1883
+    entrypoint: /bin/sh -c "envsubst < /app/configuration.yaml.template > /app/data/configuration.yaml && exec docker-entrypoint.sh"
     devices:
       - /dev/ttyUSB0:/dev/ttyACM0
