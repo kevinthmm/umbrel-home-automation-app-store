@@ -4,7 +4,7 @@ name: Zigbee2MQTT
 tagline: Bridge between Zigbee devices and MQTT broker
 icon: https://www.zigbee2mqtt.io/logo.png
 category: home-automation
-version: "1.1"
+version: "1.2"
 port: 8080
 description: >-
   Zigbee2MQTT allows you to control Zigbee devices through MQTT. It integrates seamlessly with home automation systems, enabling you to manage your smart devices efficiently.

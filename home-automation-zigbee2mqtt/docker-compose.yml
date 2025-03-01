@@ -12,4 +12,4 @@ services:
     environment:
       - TZ=Asia/Singapore
     devices:
-      - /dev/ttyUSB0:/dev/ttyUSB0
+      - /dev/serial/by-id/usb-ITead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_60d1e7d3ffe6ed11a757cf770b2af5ab-if00-port0:/dev/ttyUSB0
