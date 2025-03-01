@@ -12,4 +12,4 @@ services:
     environment:
       - TZ=Asia/Singapore
     devices:
-      - /dev/ttyUSB0:/dev/ttyACM0
+      - /dev/ttyUSB0:/dev/ttyUSB0
